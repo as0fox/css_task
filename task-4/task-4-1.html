@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .div1{
+            position: relative;
+            border: 4px solid black;
+            width: 100%;
+            height: 100px;
+            
+            z-index: 3;
+        }
+
+        .div2{
+            position: fixed;
+            background-color: blue;
+            width: 70%;
+            height: 100px;
+            z-index: 2;
+            
+        }
+        .div3{
+            position: absolute;
+            background-color: rgb(37, 230, 23);
+            width: 300px;
+            height: 120px;
+            z-index: 4;
+            margin-left: 400px;
+            margin-top:-122px;
+        }
+    </style>
+</head>
+<body>
+    <h1 > position & z-index task</h1>
+    <div class="div1">Box1</div>
+    <div class="div2">Box2</div>
+    <div class="div3">Box3</div>
+  
+</body>
+</html>

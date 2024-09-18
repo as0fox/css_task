@@ -1,0 +1,10 @@
+.p2{
+    color: rgb(43, 226, 52);
+    font-size: 50px;
+}
+table ,tr ,td,th{
+    border: 2px solid black;
+    text-align: center;
+    background-color: aqua;
+}
+
